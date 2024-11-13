@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", () => {
     // Check the width of the screen and apply the conditions
     if (window.innerWidth < 500) {
 
-        // Add Event Listener on For You Button...................................
+        // Add Event Listener on For You Button....................................
         document.querySelector(".foryoy-btn").addEventListener("click", () => {
             document.querySelectorAll(".click-line-one, .second").forEach(element => {
                 element.style.display = "block";
